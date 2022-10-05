@@ -34,12 +34,12 @@ console.log(maxOfThree(3, 6, 12));
 
 function isCharAVowel(character) {
     if (character === "a" || character === "i" || character === "o" || character === "u" || character === "y") {
-        console.log("Char is a vowel")
+        return true
     } else {
-        console.log("Char is not a vowel")
+        return false
     }
 }
-isCharAVowel("v");
+console.log(isCharAVowel("a"));
 
 
 
