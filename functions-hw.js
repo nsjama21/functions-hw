@@ -80,5 +80,13 @@ const numArgs = (...args) => {
 numArgs(5, 6, 7, 8, 9);
 
 
+// 7. Function
+// Define a function, as a function declaration, reverseStringthat takes a string, reverses the characters, and returns it. For example, reverseString('rockstar');would return the string "ratskcor".
 
+function reverseString(str) {
+    const arrStr = str.split("").reverse()
+    console.log(arrStr)
+}
+
+reverseString("Nimo");
 
