@@ -60,12 +60,12 @@ console.log(sumArray(2, 4, 5))
 // 5. Function
 // Define a function, as a function declaration, multiplyArray that takes an array of numbers and returns the product of those numbers. For example, multiplyArray([2, 4, 5]);would return 40
 
-const multiplyArray = (...args) => {
-    let base = 1;
+function multiplyArray(...args) {
+    let baseTwo = 1;
     args.forEach((num) => {
-        base *= num
+        baseTwo *= num
     })
-    return base
+    return baseTwo
 }
 
 console.log(multiplyArray(2, 4, 5))
