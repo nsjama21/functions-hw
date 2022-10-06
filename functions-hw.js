@@ -41,6 +41,24 @@ function isCharAVowel(character) {
 }
 console.log(isCharAVowel("a"));
 
+// 4. Function
+// Define a function, as a function expression, sumArray that takes an array of numbers and returns the sum of those numbers. For example, sumArray([2, 4, 5]);would return 11.
+
+
+
+const sumArray = (...args) => {
+    let base = 0;
+    args.forEach((num) => {
+        base += num
+    })
+    return base
+}
+
+console.log(sumArray(2, 4, 5))
+
+
+
+
 
 
 
