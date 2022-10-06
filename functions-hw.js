@@ -70,6 +70,14 @@ function multiplyArray(...args) {
 
 console.log(multiplyArray(2, 4, 5))
 
+// 6. Function
+// Define a function, as a function expression, numArgsthat returns the number of arguments passed to the function when called.
+
+const numArgs = (...args) => {
+    console.log(args.length);
+}
+
+numArgs(5, 6, 7, 8, 9);
 
 
 
